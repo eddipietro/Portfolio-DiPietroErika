@@ -39,10 +39,7 @@ public class ImpPersonaService implements IPersonaService{
 
     private static class IPersonaRepository {
 
-        public IPersonaRepository() {
-        }
-
-         private List<Persona> findAll() {
+        private List<Persona> findAll() {
             throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
         }
         private List<Persona> findById() {
